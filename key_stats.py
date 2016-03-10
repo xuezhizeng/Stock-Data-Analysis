@@ -145,12 +145,14 @@ def Key_Stats(gather=["Total Debt/Equity",
                     try:
                         sp500_date = datetime.fromtimestamp(unix_time).strftime('%Y-%m-%d')
                         row = sp500_df[(sp500_df.index == sp500_date)]
-                        sp500_value = float(row["Adjusted Close"])
+                        #print row
+                        sp500_value = float(row["Adj Close"])
                     except:
                         sp500_date = datetime.fromtimestamp(unix_time-259200).strftime('%Y-%m-%d')
                         row = sp500_df[(sp500_df.index == sp500_date)]
-                        sp500_value = float(row["Adjusted Close"])
-
+                        #print row
+                        sp500_value = float(row["Adj Close"])
+                    
                     try:
                         stock_price = float(source.split('</small><big><b>')[1].split('</b></big>')[0])
                     except Exception as e:
@@ -248,9 +250,24 @@ def Key_Stats(gather=["Total Debt/Equity",
                                             'Status':status},
                                            ignore_index=True)
                 except Exception as e:
+                    print e
                     pass
 
 
+    for each_ticker in ticker_list:
+        try:
+            plot_df = df[(df['Ticker']==each_ticker)]
+            plot_df = plot_df.set_index(['Date'])
+            
+            plot_df['Difference'].plot(label=each_ticker)
+            plt.legend()
+            print "something plotted!"
+            
+        except Exception as e:
+            print (e)
+            pass 
+    
+    plt.show()
 
     df.to_csv("key_stats.csv")
     
