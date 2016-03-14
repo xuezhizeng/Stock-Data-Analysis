@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-IN">
+<head>
+    <title>Symbol Lookup from Yahoo! India Finance</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Search for ticker symbols for Stocks, Mutual Funds, ETFs, Indices and Futures on Yahoo! India Finance.">
+    <meta name="keywords" content="symbol lookup, ticker lookup, stock symbol lookup, yahoo india finance, yahoo finance, india finance">
+    
+<link rel="stylesheet" type="text/css" href="https://s.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/reset-fonts-grids/2.0.0/mini/reset-fonts-grids.css&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/tabview/assets/skins/sam/2.0.0/mini/tabview.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_base.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/lookup.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_siab_lookup.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_nav_lego.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_nav_topnav_base_lego.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_nav_topnav_theme_lego.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_nav_portfolio.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_nav_quotebar.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_nav_footer_base.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_nav_footer_theme.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yui_helper.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_symbol_suggest.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/lego.css&fi/common/p/d/static/css/2.0.356981/2.0.0/mini/yfi_theme_teal.css" />
+<script type="text/javascript" src="https://s.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/yahoo-dom-event/2.0.0/mini/yahoo-dom-event.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/element/2.0.0/mini/element-min.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/get/2.0.0/mini/get.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/tabview/2.0.0/mini/tabview-min.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yui-min-3.5.1.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/yuiloader-dom-event/2.0.0/mini/yuiloader-dom-event.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/cookie/2.0.0/mini/cookie.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/connection/2.0.0/mini/connection.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/container/2.0.0/mini/container.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/datasource/2.0.0/mini/datasource.js&fi/common/p/d/static/js/2.0.356981/yui_2.8.0/build/autocomplete/2.0.0/mini/autocomplete.js"></script>
+
+                    <script>
+                        var ll_js = new Array();
+                    </script>
+                
+</head>
+<body id="yfi_fp" class="yfi_lookup yfin_nogs gsg-0">
+    <!-- skip nav -->
+    <a href="#y-nav-sec" id="skip_nav">Skip navigation</a>
+    <!--skip nav -->
+        
+        <div id="yfi_fp_hd">
+            <div class="yfi_doc yog-hd" id="yog-hd">
+                <link type='text/css' rel='stylesheet' href='https://s.yimg.com/zz/combo?kx/yucs/uh2/uh/295/css/yunivhead-min.css&kx/yucs/uh2/uh/295/css/logo-min.css&kx/ucs/avatar/css/17/avatar-min.css&kx/yucs/uh2/mail-link/85/css/mailcount_v2-min.css&kx/yucs/uh2/mail-link/85/css/mail_preview-min.css&kx/ucs/search/css/190/search_all-min.css&kx/ucs/search/css/190/search_buttons-min.css&kx/yucs/uh2/uh/295/css/yunivhead_https-min.css&kx/yucs/uh_common/meta/3/css/meta-min.css'/><div class=""><style>/* customizable */
+#yUnivHead{}
+#yUnivHead .yuhead-bullet-down{background-position:right -119px;}
+
+/* font color */
+#yUnivHead {color:#fff;}
+#yUnivHead a{color:#fff;}
+#yUnivHead a:hover{color:#fff;}
+
+#yuhead-hd #yuhead-mepanel-cont #yuhead-mepanel li.yuhead-me{border-color:#fff;}
+#yuhead-hd #yuhead-com-links-cont #yuhead-com-links li.yuhead-com-link-item{border-color:#fff;}
+.yuhead-logo h2 a{color:#fff;}
+
+/* promo color */
+#yUnivHead #yuhead-promo .yucs-promo-label{color:#fff;}
+#yUnivHead #yuhead-promo a{color:#fff;}
+#yUnivHead #yuhead-promo a:hover{color:#fff;}
+
+/* background, border, gradients */
+#yUnivHead {
+    background:transparent;
+}
+/* trending promo background - match to header top background */
+#yUnivHead .yucs-trending-anim .yucs-trending-anim-fade {
+	background:transparent;
+}
+/*logos*/
+#yUnivHead .yuhead-logo h2 {background-position:-350px top;}
+/*  #yUnivHead.yucs-en-nz .yuhead-logo h2 {background-position:0px -120px;} */
+#yUnivHead .yuhead-logo h2.small {background-position:0px -360px;}</style><div id="yUnivHead" class="yucs-en-in" data-lang="en-in" data-property="finance" data-flight="1457957262" data-uhvc="/"> <div id="yucs-disclaimer" class="yucs-disclaimer yucs-activate yucs-hide yucs-property-finance yucs-fcb- " data-cobrand="standard" data-cu = "0" data-dsstext="Want a better search experience? {dssLink}Set your Search to Yahoo{linkEnd}" data-dsstext-mobile="Search Less, Find More" data-dsstext-mobile-ok="OK" data-dsstext-mobile-set-search="Set Search to Yahoo" data-dssstbtext="Yahoo is the preferred search engine for Firefox. Switch now." data-dssstb-ok="Yes" data-dssstb-no="Not Now" data-ylt-link="https://uk.search.yahoo.com/searchset?pn=" data-ylt-dssbarclose="/" data-ylt-dssbaropen="/" data-ylt-dssstb-link="https://downloads.yahoo.com/sp-firefox" data-ylt-dssstbbarclose="/" data-ylt-dssstbbaropen="/" data-ylt-dssCookieCleanedSuccess="/" data-ylt-dssCookieCleanedFailed="/" data-linktarget="_top" data-lang="en-in" data-property="finance" data-device="Desktop" data-close-txt="Close this window" data-maybelater-txt = "Maybe later" data-killswitch = "0" data-host="in.finance.yahoo.com" data-spaceid="" data-pn="" data-dss-cookie-cleanup="" data-pn-en-ca-mobile-frontpage="" data-pn-de-de-mobile-frontpage="" data-pn-es-es-mobile-frontpage="" data-pn-fr-fr-mobile-frontpage="" data-pn-en-in-mobile-frontpage="" data-pn-it-it-mobile-frontpage="" data-pn-en-us-mobile-frontpage="" data-pn-en-sg-mobile-frontpage="" data-pn-en-gb-mobile-frontpage="" data-pn-en-us-mobile-mail="" data-pn-en-ca-mobile-mail="" data-pn-de-de-mobile-mail="" data-pn-es-es-mobile-mail="" data-pn-fr-fr-mobile-mail="" data-pn-en-in-mobile-mail="" data-pn-it-it-mobile-mail="" data-pn-en-sg-mobile-mail="" data-pn-en-gb-mobile-mail="" data-pn-pt-br-mobile-mail="" data-pn-en-us-tablet-frontpage="" data-pn-en-us-tablet-mail="" data-pn-en-ca-tablet-mail="" data-pn-de-de-tablet-mail="" data-pn-es-es-tablet-mail="" data-pn-fr-fr-tablet-mail="" data-pn-en-in-tablet-mail="" data-pn-it-it-tablet-mail="" data-pn-en-sg-tablet-mail="" data-pn-en-gb-tablet-mail="" data-pn-pt-br-tablet-mail="" data-news-search-yahoo-com="" data-answers-search-yahoo-com="" data-finance-search-yahoo-com="" data-images-search-yahoo-com="" data-video-search-yahoo-com="" data-sports-search-yahoo-com="" data-shopping-search-yahoo-com="" data-shopping-yahoo-com="" data-us-qa-trunk-news-search-yahoo-com ="" data-dss="1"></div>    <a href="#yuhead-search" class="yucs-skipto-search yucs-activate">Skip to search.</a>  <div id="yuhead-hd" class="yuhead-clearfix"> <div id="yuhead-mepanel-cont"> <ul id="yuhead-mepanel" class="yucs-toolbar yucs-activate" aria-label="User services"><li class="yuhead-me yuhead-nodivide yuhead-nopad"> <a class="yuhead-signup" href="https://edit.yahoo.com/config/eval_register?.src=quote&.intl=in&.lang=en-IN&.done=https://in.finance.yahoo.com/lookup%3fs=PLL" target="_top" rel="nofollow"> <em>New User?</em> Register</a></li><li class="yuhead-me"> <a href="https://login.yahoo.com/config/login?.src=quote&.intl=in&.lang=en-IN&.done=https://in.finance.yahoo.com/lookup%3fs=PLL" target="_top" rel="nofollow"> <em>Sign In</em></a></li><li class="yuhead-me"><a href="https://help.yahoo.com/l/in/yahoo/finance/" rel="nofollow" target="_top">Help</a></li></ul>   </div> <div id="yuhead-promo"><a href="http://in.yahoo.com/bin/set?cmp=uheader&src=others" target="_top" rel="nofollow">Make Yahoo Your Homepage<abbr title="Yahoo!"></abbr></a></div> <div id="yuhead-com-links-cont"> <ul id="yuhead-com-links" class="yucs-toolbar yucs-activate" aria-label="Yahoo services">  <li class="yuhead-com-link-item yucs-mailpreview-ancestor"> <a class="sp yltasis yuhead-ico-mail" href="https://in.mail.yahoo.com/?.intl=in&.lang=en-IN" rel="nofollow" target="_top">Mail</a><ul class="yucs-mail-preview-panel hide" data-uri-scheme="http" data-uri-path="ucs.query.yahoo.com/v1/console/yql" data-mail-txt="Mail" data-mail-view="Go to Mail" data-mail-help-txt="Help" data-mail-help-url="http://help.yahoo.com/l/in/yahoo/mail/ymail/" data-mail-loading-txt="Loading..." data-languagetag="en-in" data-mrd-crumb="" data-authstate="signedout" data-middleauth-signin-text="Click here to view your emails" data-popup-login-url="https://login.yahoo.com/config/login_verify2?.pd=c%3DOIVaOGq62e5hAP8Tv..nr5E3&.src=sc" data-middleauthtext="You have {count} new messages." data-yltmessage-link="http://mrd.mail.yahoo.com/msg?mid={msgID}&fid=Inbox&src=uh&.crumb=" data-yltviewall-link="https://in.mail.yahoo.com/" data-yltpanelshown="/"></ul></li><li class="yuhead-com-link-item"> <a href="http://in.my.yahoo.com" rel="nofollow" target="_top"> My Yahoo </a></li><li id="yuhead-com-home"><a class="sp yuhead-ico-home" href="https://in.yahoo.com/" rel="nofollow" target="_top">Yahoo</a></li> </ul> </div> </div> <div id="yuhead-bd" class="yuhead-clearfix"> <div class="yuhead-logo"> <style> .yuhead-logo h2{ width:350px; height:38px; background-image:url(https://s.yimg.com/rz/d/yahoo_finance_en-IN_s_f_pw_351x40_finance.png
+); _background-image:url(https://s.yimg.com/rz/d/yahoo_finance_en-IN_s_f_pw_351x40_finance.gif
+); } .yuhead-logo a{ width:350px; height:38px; } .yuhead-logo div.yuhead-comarketing { width:350px; } .yog-tablet #yUnivHead h2 { background-position: -350px 5px !important; } html[lang='en-AU'] .yog-tablet #yUnivHead .yuhead-logo h2 { background-position: -350px 5px !important; } html[lang='en-NZ'] .yog-tablet #yUnivHead .yuhead-logo h2 { background-position: -350px 5px !important; } .yog-smartphone #yUnivHead h2 { background-position: -265px 0; background-size: 534px; margin-left: 26%; } .yog-tablet .yuhead-logo h2{ background-repeat: repeat-x; } .yog-tablet.yog-version-v2 #yUnivHead h2 { background-position: center !important; } .yog-tablet #yUnivHead .yuhead-logo h2 { height: 40px !important; } .yog-rtl.yog-smartphone #yUnivHead .yuhead-logo h2 { background-position: -352px 0; !important; background-size: 536px !important; margin-left: 30% !important; } html[lang='ar'] .yog-rtl.yog-smartphone #yUnivHead .yuhead-logo h2 { background-position: -386px 0; !important; } .yog-smartphone #yUnivHead h2.yuhead-music { background-position: 0 0 !important; width: 260px !important; } html[lang='en-US'] .yog-smartphone #yUnivHead h2 { background-size: auto 21px !important; background-position: -350px 0; } html[lang='pt-BR'] .yog-smartphone #yUnivHead h2.yuhead-sports { background-position: -265px 0 !important; background-size: 534px; margin-left: 17%; } html[lang='ar'] .yog-smartphone #yUnivHead h2.yuhead-omg { background-position: -383px 0 !important; background-size: 605px; margin-left: 0; width: auto; } html[lang='en-PH'] .yog-tablet #yUnivHead .yuhead-logo h2 { height: 47px !important; } html[lang='en-PH'] .yog-smartphone #yUnivHead h2 { width: 255px; } </style> <h2 class="yuhead-finance yuhead-standard"> <a href="https://in.finance.yahoo.com" target="_top" tabindex="-1"> Yahoo India Finance </a> </h2> <div id="yucs-disclaimer-md" class="yucs-disclaimer-md yucs-activate yucs-hide Desktop  yucs-property-finance yucs-fcb-" data-dsstext="Want a better search experience? {dssLink}Set your Search to Yahoo{linkEnd}" data-dsstext-mobile="Search Less, Find More" data-dsstext-mobile-ok="OK" data-dsstext-mobile-set-search="Set Search to Yahoo" data-ylt-link="https://uk.search.yahoo.com/searchset?pn=" data-ylt-dssbarclose="/" data-ylt-dssbaropen="/" data-linktarget="_top" data-lang="en-in" data-property="finance" data-device="Desktop" data-close-txt="Close this window" data-maybelater-txt = "Maybe later" data-killswitch = "0" data-dss="1"></div><script typ="text/javascript" src="https://s.yimg.com/kx/yucs/uh3/disclaimer/274/js/disclaimer_seed-min.js"></script> </div> <div id="yuhead-search"> <div id="yuhead-sform-cont" class="yuhead-s-web yuhead-search-form"> <form role="search" class="yucs-search yucs-activate" target="_top" action="https://in.search.yahoo.com/search" method="get"><table role="presentation"> <tbody role="presentation"><tr role="presentation"><td class="yucs-form-input" role="presentation"> <label for="yuhead-sform-searchfield"> <span>Search</span> </label> <input autocomplete="off" type="text" class="sp yuhead-ico-mglass yuhead-search-hint yucs-search-field" name="p" data-sh="Search"  data-gosurl="" id="yuhead-sform-searchfield" data-pubid="" /></td><td NOWRAP class="yucs-form-btn" role="presentation"><div class="yucs-btn-wrap"> <button class="yucs-sweb-btn" type="submit">Search Web</button></div> </td> </tr> </tbody></table><input type="hidden" id="fr" name="fr" value="ush1-finance" /></form> </div> </div>  </div>               <!-- meta --><div id="yucs-meta" data-authstate="signedout" data-cobrand="standard" data-crumb="" data-mc-crumb="" data-gta="" data-device="desktop" data-experience="" data-firstname="" data-style="" data-flight="1457957262" data-forcecobrand="standard" data-guid="" data-host="in.finance.yahoo.com" data-https="1" data-languagetag="en-in" data-property="finance" data-protocol="" data-shortfirstname="" data-shortuserid="" data-status="active" data-spaceid="" data-test_id="" data-userid="" data-stickyheader="true" data-headercollapse="" data-uh-test="" ></div><!-- /meta --></div></div><script type="text/javascript">
+    var yfi_dd = "finance.yahoo.com";
+</script>
+
+<script>
+        if(typeof YAHOO == "undefined"){YAHOO={};}
+        if(typeof YAHOO.Finance == "undefined"){YAHOO.Finance={};}
+        if(typeof YAHOO.Finance.ComscoreConfig == "undefined"){YAHOO.Finance.ComscoreConfig={};}
+        YAHOO.Finance.ComscoreConfig={ "config" : [
+        {
+                c5: "1186550141",
+                c7: "https://in.finance.yahoo.com/lookup?s=PLL"
+        } ] }
+</script>
+
+
+
+            </div>
+	    
+	    <div class="ad_in_head">	
+		<div class="yfi_doc">
+                <!-- SpaceID=0 robot -->
+
+		</div>
+	    </div>
+            <div id="yfi_nav_header">
+                	   <div id="navigation" class="yom-mod yom-nav" role="navigation">
+              <div class="bd">
+                <div class="nav">
+                <!-- skip nav >
+                    <a href="#y-nav-sec" id="skip_nav"><MapleReplace>{l10n.finance/default_tokens/YFT_TOPNAV_SKIP_NAVIGATION}</MapleReplace></a>
+                nav -->
+                <div class="y-nav-pri-legobg">
+                    <div id="y-nav-pri" class="nav-stack nav-0 yfi_doc">
+                        <ul class="yog-grid" id="y-main-nav"><li id="Home"><div class="level1"><a class="" href="/"><span>Home</span></a></div></li><li id="Markets"><div class="level1"><a class="" href="https://in.finance.yahoo.com/investing/"><span>Markets</span></a><div class="arrow">
+                                        <em></em>
+                                    </div>
+                                    <div class="pointer"></div>
+                                    <ul class="nav-sub"><li><a href="/actives?e=bo">Volume Leaders</a></li><li><a href="/news/budget/sectorwatch/">Sector Watch</a></li><li><a href="/gainers?e=bo">Top Gainers</a></li><li><a href="/losers?e=bo">Top Losers</a></li><li><a href="/intlindices?e=asia">World Indices</a></li></ul></div></li><li class="nav-fin-portfolios">
+            <div class="level1">
+                <a id="yfmya" href="/portfolios.html"><span>My Portfolios</span></a><div class="arrow">
+                            <em></em>
+                        </div>
+                        <div class="pointer"></div>
+                        <ul class="nav-sub"><li><a href="/portfolios/">Sign in to access My Portfolios</a></li></ul></div></li><li id="News"><div class="level1"><a class="" href="/news/"><span>News</span></a><div class="arrow">
+                                        <em></em>
+                                    </div>
+                                    <div class="pointer"></div>
+                                    <ul class="nav-sub"><li><a href="/archive/">All Providers</a></li><li><a href="/news/features/">Analysis</a></li><li><a href="/news/financequiz/">Quiz</a></li></ul></div></li><li id="Personal%2520Finance"><div class="level1"><a class="" href="/personal-finance/"><span>Personal Finance</span></a><div class="arrow">
+                                        <em></em>
+                                    </div>
+                                    <div class="pointer"></div>
+                                    <ul class="nav-sub"><li><a href="/personal-finance/careers/">Careers</a></li><li><a href="/personal-finance/equityinvesting/">Equity Investing</a></li><li><a href="/personal-finance/gold/">Gold and Silver</a></li><li><a href="/personal-finance/insurance/">Insurance</a></li><li><a href="/personal-finance/loans/">Loans and Credit Cards</a></li><li><a href="/personal-finance/mutual-fund/">Mutual Funds</a></li><li><a href="/personal-finance/realestate/">Real Estate</a></li><li><a href="/personal-finance/tax/">Tax</a></li></ul></div></li><li id="In%2520Pics"><div class="level1"><a class="" href="/photos/"><span>In Pics</span></a></div></li><li id="Videos"><div class="level1"><a class="" href="/video/"><span>Videos</span></a></div></li><li id="Budget%25202016"><div class="level1"><a class="" href="/news/budget/"><span>Budget 2016</span></a><div class="arrow">
+                                        <em></em>
+                                    </div>
+                                    <div class="pointer"></div>
+                                    <ul class="nav-sub"><li><a href="/news/budget/budgetnews/">Budget News</a></li><li><a href="/news/budget/budgetandyou/">Budget and You</a></li></ul></div></li>                        </ul>
+                    </div>
+                </div>                    </div>
+               </div>
+	   </div>
+            </div>
+            <script>
+        
+        (function(el) {
+            function focusHandler(e){
+                if (e && e.target){
+                    e.target == document ? null : e.target;
+                    document.activeElement = e.target;
+                }
+            }
+            // Handle !IE browsers that do not support the .activeElement property
+            if(!document.activeElement){
+                if (document.addEventListener){ 
+                    document.addEventListener("focus", focusHandler, true);
+                }
+            }
+        })(document);
+        
+        </script><div class="y-nav-legobg"><div class="yfi_doc"><div id="y-nav-sec" class="clear"><div id="searchQuotes" class="ticker-search mod" mode="search">
+<div class="hd"></div>
+<div class="bd"><form id="quote" name="quote" action="/q">
+<h2 class="yfi_signpost">Search for share prices</h2>
+<label for="txtQuotes">Search for share prices</label><input id="txtQuotes" name="s" value="" type="text" autocomplete="off" placeholder="Enter Symbol"><input id="get_quote_logic_opt" name="ql" value="1" type="hidden" autocomplete="off"><div id="yfi_quotes_submit"><span><span><span><input type="submit" value="Look Up" id="btnQuotes" class="rapid-nf"></span></span></span></div>
+</form></div>
+<div class="ft">
+<!-- this is required only for the yoda pages, /page/settings/@page is available only on yoda pages --><div class="mkt_time"><p><span id="yfs_market_time">Mon, 14 Mar, 2016 5:37PM - India Markets closed</span></p></div>
+</div>
+</div></div></div></div>
+
+        </div>
+    <div id="yfi_doc">
+    
+	
+        <div id="yfi_fp_bd">
+            <div id="yfi_ad_FB2">
+                
+            </div>		
+            <div id="yfi_fp_left">
+                <div id="yfi_fp_left_top">
+                    <div id="yfi_sym_lookup_results"><h1>Get Quotes Results for<span style="color:red"> PLL</span></h1><form name="symlookupform" id="symlookupform" action=""><input type="hidden" name="s" value="PLL"><input type="hidden" name="t" value="A"><input type="hidden" name="b" value="0"><fieldset><legend>Filter Results</legend><label for="m">Market</label><select name="m" id="m" class="sldd"><option value="ALL" selected> All Markets </option><option value="US" > US & Canada </option><option value="IN" > IN </option></select></fieldset></form><div id="yfi_sym_lookup" class="yui-navset"><ul class="yui-nav"><li class="selected"><a href="/lookup/all?s=PLL&amp;t=A&amp;m=ALL&amp;r=" title="All"><em>All<br>
+               (25)
+			</em></a></li><li><a href="/lookup/stocks?s=PLL&amp;t=S&amp;m=ALL&amp;r=" title="Stocks"><em>Stocks<br>
+               (20)
+			</em></a></li><li><a href="/lookup/funds?s=PLL&amp;t=M&amp;m=ALL&amp;r=" title="Mutual Funds"><em>Mutual Funds<br>
+               (5)
+			</em></a></li><li><a href="/lookup/etfs?s=PLL&amp;t=E&amp;m=ALL&amp;r=" title="ETFs"><em>ETFs<br>
+               (0)
+			</em></a></li><li><a href="/lookup/indices?s=PLL&amp;t=I&amp;m=ALL&amp;r=" title="Indices"><em>Indices<br>
+               (0)
+			</em></a></li><li><a href="/lookup/futures?s=PLL&amp;t=F&amp;m=ALL&amp;r=" title="Futures"><em>Futures<br>
+               (0)
+			</em></a></li><li><a href="/lookup/currency?s=PLL&amp;t=C&amp;m=ALL&amp;r=" title="Currencies"><em>Currencies<br>
+               (0)
+			</em></a></li></ul><div class="yui-content"><div id="yfi_sym_results"><table class="yui-dt" summary="YFT_SL_TABLE_SUMMARY"><thead><tr><th><a href="/lookup/all?s=PLL&amp;t=A&amp;m=ALL&amp;r=1">Symbol</a></th><th><a href="/lookup/all?s=PLL&amp;t=A&amp;m=ALL&amp;r=3">Name</a></th><th scope="col">Last Trade</th><th scope="col">Type</th><th><a href="/lookup/all?s=PLL&amp;t=A&amp;m=ALL&amp;r=7">Exchange</a></th></tr></thead><tbody><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=PLLCX">PLLCX</a></td><td>Principal Large Cap Value III C</td><td class="ticker_up">8.80</td><td>Mutual Fund</td><td>NAS</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=PLLRF">PLLRF</a></td><td>PRELIOS SPA</td><td>0.12</td><td>Stock</td><td>PNK</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=PLL.SG">PLL.SG</a></td><td>PRUDENTIAL FINANCL</td><td class="ticker_down">60.00</td><td>Stock</td><td>STU</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=UXX.SG">UXX.SG</a></td><td>BOGDANKA</td><td>0.00</td><td>Stock</td><td>STU</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=UXX.BE">UXX.BE</a></td><td>BOGDANKA</td><td class="ticker_up">8.25</td><td>Stock</td><td>BER</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=0F58.L">0F58.L</a></td><td>Grupa LOTOS Spólka Akcyjna</td><td>25.60</td><td>Stock</td><td>LSE</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=G17.BE">G17.BE</a></td><td>LOTOS</td><td>7.48</td><td>Stock</td><td>BER</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=PLL.V">PLL.V</a></td><td>Palladon Ventures Ltd.</td><td>0.01</td><td>Stock</td><td>VAN</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=PLL.MX">PLL.MX</a></td><td></td><td>NaN</td><td></td><td></td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=PLLIX">PLLIX</a></td><td>Pacific Funds Limited Dur High Inc I</td><td class="ticker_up">8.82</td><td>Mutual Fund</td><td>NAS</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=PLLYX">PLLYX</a></td><td>Pacific Funds Limited Dur High Inc Adv</td><td class="ticker_up">8.81</td><td>Mutual Fund</td><td>NAS</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=PLLAF">PLLAF</a></td><td>PLAY LA, INC.</td><td>0.11</td><td>Stock</td><td>PNK</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=PLL.BE">PLL.BE</a></td><td>PRUDENTIAL FINANCL</td><td>70.72</td><td>Stock</td><td>BER</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=PLLX">PLLX</a></td><td>Pollex, Inc.</td><td>0.06</td><td>Stock</td><td>PNK</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=PLL.MU">PLL.MU</a></td><td>PRUDENTIAL FINANCL</td><td>81.62</td><td>Stock</td><td>MUN</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=G17.MU">G17.MU</a></td><td>LOTOS</td><td>7.31</td><td>Stock</td><td>MUN</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=PLLDX">PLLDX</a></td><td>Pacific Funds Limited Dur High Inc A</td><td class="ticker_up">8.81</td><td>Mutual Fund</td><td>NAS</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=UXX.MU">UXX.MU</a></td><td>BOGDANKA</td><td class="ticker_up">8.80</td><td>Stock</td><td>MUN</td></tr><tr class="yui-dt-odd"><td><a href="https://in.finance.yahoo.com/q?s=0MMZ.L">0MMZ.L</a></td><td>Lubelski Wegiel Bogdanka S.A.</td><td>31.86</td><td>Stock</td><td>LSE</td></tr><tr class="yui-dt-even"><td><a href="https://in.finance.yahoo.com/q?s=0LVL.L">0LVL.L</a></td><td>LPP Spolka Akcyjna</td><td>5,355.51</td><td>Stock</td><td>LSE</td></tr></tbody></table></div><div id="pagination">Showing 1 - 20 of 25 |  First  |  Previous  | <a href="/lookup/all?s=PLL&amp;t=A&amp;m=ALL&amp;r=&amp;b=20">Next</a> | <a href="/lookup/all?s=PLL&amp;t=A&amp;m=ALL&amp;r=&amp;b=20">Last</a></div></div></div></div>
+
+                </div>		
+                <div id="yfi_fp_left_bottom">
+                    
+                </div>
+            </div>
+            <div id="yfi_fp_right">
+                <!-- SpaceID=0 robot -->
+
+            </div>
+        </div>
+    </div>
+        <div id="y-footer">
+            <div class="yom-mod yom-footer-links" id="footer-links"><div class="bd"><div class="yog-grid yog-24u"><div class="yog-wrap">
+<div class="yog-col yog-7u"><div class="yom-mod yom-nav-footer" id="nav-footer">
+<div class="hd"><h2>Yahoo! India Finance</h2></div>
+<div class="bd"><div class="content"><div class="wrap">
+<ul class="yom-list col first" style="width: 50%;">
+<li><a href="/q?s=%5EBSESN" mapleUltParams="sec=footer-yfinance">BSE Sensex</a></li>
+<li><a href="/q?s=%5ENSEI" mapleUltParams="sec=footer-yfinance">Nifty 50</a></li>
+<li><a href="/indices?e=bo" mapleUltParams="sec=footer-yfinance">Major Indices</a></li>
+<li><a href="/indices?e=ns" mapleUltParams="sec=footer-yfinance">NSE Indices</a></li>
+<li><a href="/currencies/investing.html#cross-rates" mapleUltParams="sec=footer-yfinance">Cross Currency Rates</a></li>
+<li><a href="/news/category-economy" mapleUltParams="sec=footer-yfinance">Economic News</a></li>
+<li><a href="http://feeds.finance.yahoo.com/rss/2.0/topic-top-stories?region=IN%26lang=en-IN" mapleUltParams="sec=footer-yfinance">RSS Feed</a></li>
+</ul>
+<ul class="yom-list col last" style="width: 50%;" start="8">
+<li><a href="/news/category-commodities/" mapleUltParams="sec=footer-yfinance">Commodities</a></li>
+<li><a href="/intlindices?e=americas" mapleUltParams="sec=footer-yfinance">World Markets</a></li>
+<li><a href="/actives?e=bo" mapleUltParams="sec=footer-yfinance">Most Active</a></li>
+<li><a href="/gainers?e=bo" mapleUltParams="sec=footer-yfinance">Price Gainers</a></li>
+<li><a href="/losers?e=bo" mapleUltParams="sec=footer-yfinance">Price Losers</a></li>
+<li><a href="/advances" mapleUltParams="sec=footer-yfinance">Advances & Declines</a></li>
+<li><a href="/news/category-stocks" mapleUltParams="sec=footer-yfinance">Market News</a></li>
+</ul>
+</div></div></div>
+</div></div>
+<div class="yog-col yog-17u"><div class="yog-wrap">
+<div class="yog-col yog-9u first"><div class="yom-mod yom-linkbox yom-also-on-yahoo" id="also-on-yahoo">
+<div class="hd"><h2>Also on Yahoo! India</h2></div>
+<div class="bd"><div class="content"><div class="wrap">
+<ul class="yom-list col first" style="width: 33.333333333333%;">
+<li><a href="http://cricket.yahoo.com" mapleUltParams="sec=footer-alsoonyahoo">Cricket</a></li>
+<li><a href="http://in.movies.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Bollywood</a></li>
+<li><a href="http://in.news.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Breaking News</a></li>
+<li><a href="http://yfinanceblog.com/" mapleUltParams="sec=footer-alsoonyahoo">Read Our Blog</a></li>
+</ul>
+<ul start="5" class="yom-list col" style="width: 33.333333333333%;">
+<li><a href="http://in.buzz.yahoo.com" mapleUltParams="sec=footer-alsoonyahoo">Buzz</a></li>
+<li><a href="http://in.jagran.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Jagran</a></li>
+<li><a href="http://in.answers.yahoo.com" mapleUltParams="sec=footer-alsoonyahoo">Answers</a></li>
+<li><a href="http://in.local.yahoo.com" mapleUltParams="sec=footer-alsoonyahoo">Local</a></li>
+</ul>
+<ul start="9" class="yom-list col last" style="width: 33.333333333333%;">
+<li><a href="http://in.mail.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Mail</a></li>
+<li><a href="http://in.lifestyle.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Lifestyle</a></li>
+<li><a href="http://in.weather.yahoo.com/" mapleUltParams="sec=footer-alsoonyahoo">Weather forecast</a></li>
+<li><a href="http://in.mobile.yahoo.com/search" mapleUltParams="sec=footer-alsoonyahoo">Mobile</a></li>
+</ul>
+</div></div></div>
+<div class="ft"><a href="http://everything.yahoo.com/in/" mapleUltParams="sec=footer-alsoonyahoo" class="more">All Y! India Services&nbsp;&raquo;</a></div>
+</div></div>
+<div class="yog-col yog-8u last"><div class="yom-mod yom-linkbox yom-things-to-do" id="things-to-do">
+<div class="hd"><h2>Things To Do</h2></div>
+<div class="bd"><div class="content"><div class="wrap"><ul>
+<li><a href="http://cricket.yahoo.com/" mapleUltParams="sec=footer-thingstodo">Cricket Scores</a></li>
+<li><a href="http://in.movies.yahoo.com/gallery-movies.html" mapleUltParams="sec=footer-thingstodo">Movie Slideshows</a></li>
+<li><a href="http://in.movies.yahoo.com/videos.html" mapleUltParams="sec=footer-thingstodo">Movie Videos</a></li>
+<li><a href="http://in.lifestyle.yahoo.com/" mapleUltParams="sec=footer-thingstodo">Lifestyle</a></li>
+</ul></div></div></div>
+</div></div>
+</div></div>
+</div></div></div></div>
+
+            <div class="y-footer"><div class="footer-wrapper"><div class="footer-wrapper-inner"><div class="worldwide yog-24u">
+<h2>Yahoo! Finance Worldwide</h2>
+<ul>
+<li><a href="http://ar.finanzas.yahoo.com/">Argentina</a></li>
+<li><a href="http://au.finance.yahoo.com/">Australia</a></li>
+<li><a href="http://br.financas.yahoo.com/">Brazil</a></li>
+<li><a href="http://ca.finance.yahoo.com/">Canada</a></li>
+<li><a href="http://fr.finance.yahoo.com/">France</a></li>
+<li><a href="http://fr-ca.finance.yahoo.com/">French Canada</a></li>
+<li><a href="http://de.finance.yahoo.com/">Germany</a></li>
+</ul>
+<ul>
+<li><a href="http://hk.finance.yahoo.com/">Hong Kong</a></li>
+<li><a href="https://in.finance.yahoo.com/">India</a></li>
+<li><a href="http://it.finance.yahoo.com/">Italy</a></li>
+<li><a href="http://finance.yahoo.co.jp/">Japan</a></li>
+<li><a href="http://mx.finanzas.yahoo.com/">Mexico</a></li>
+<li><a href="http://nz.finance.yahoo.com/">New Zealand</a></li>
+<li><a href="http://sg.finance.yahoo.com/">Singapore</a></li>
+<li><a href="http://es.finance.yahoo.com/">Spain</a></li>
+<li><a href="http://es-us.finanzas.yahoo.com/">Spanish</a></li>
+<li><a href="http://tw.stock.yahoo.com/">Taiwan</a></li>
+<li><a href="http://uk.finance.yahoo.com/">UK & Ireland</a></li>
+<li><a href="http://finance.yahoo.com">USA</a></li>
+</ul>
+</div></div></div></div>
+
+            <div class="footer_copyright">
+               <div class="yog-24u">
+                   <div class="footer_legal">
+                       <!-- SpaceID=0 robot -->
+
+                   </div>
+                   <div class="footer_legal"></div><div class="footer_disclaimer">
+<p><strong>Quotes for NYSE, Nasdaq and NYSEAmex are Real-time</strong> and sourced from Nasdaq Last Sale when available. If not available from NLS, quotes will appear delayed from primary listing source.<br /> See also delay times for <a href="http://help.yahoo.com/l/in/yahoo/finance/basics/fitadelay2.html">other exchanges</a>. All information provided "as is" for informational purposes only, not intended for trading purposes or advice. Neither Yahoo! nor any of independent providers is liable for any informational errors, incompleteness, or delays, or for any actions taken in reliance on information contained herein. By accessing the Yahoo! site, you agree not to redistribute the information found therein. Real-Time continuous streaming quotes are available through our <a href="http://billing.finance.yahoo.com/realtime_quotes/signup?.src=quote&amp;.refer=quote">premium service.</a> You may turn streaming quotes on or off.</p>
+<p>Fundamental company data provided by <a href="http://www.capitaliq.com">Capital IQ</a>. Historical chart data and daily updates provided by <a href="http://www.csidata.com">Commodity Systems, Inc. (CSI)</a>. International historical chart data, daily updates, fund summary, fund performance, dividend data and Morningstar Index data provided by <a href="http://www.morningstar.com/">Morningstar, Inc.</a></p>
+</div>
+
+               </div>
+            </div>
+        </div>
+
+    <script type="text/javascript">
+        window.RAPID_ULT ={
+            tracked_mods:{
+                'navigation' :'navigation',
+                'searchQuotes' : 'searchQuotes',
+                'symlookupresults' : 'yfi_sym_lookup_results',
+                'quotessearch' : 'quotessearch_container',
+                'pagefooter' : 'y-footer'     
+            },
+            page_params:{
+                'pstcat' : 'Symbollookup',
+                'pt' : 'Symbol lookup',
+                'pstth' : 'Symbol lookup'
+            }
+        };
+    </script>
+
+    <div id="spaceid" style="display:none;">1186550141</div><script type="text/javascript">
+                if(typeof YAHOO == "undefined"){YAHOO={};}
+                if(typeof YAHOO.Finance == "undefined"){YAHOO.Finance={};}
+                if(typeof YAHOO.Finance.SymbolSuggestConfig == "undefined"){YAHOO.Finance.SymbolSuggestConfig=[];}
+
+                    YAHOO.Finance.SymbolSuggestConfig.push({
+                        dsServer:'https://s.yimg.com/aq/autoc',
+                        dsRegion:'IN',
+                        dsLang:'en-IN',
+                        dsFooter:'<div class="moreresults"><a class="[[tickdquote]]" href="https://in.finance.yahoo.com/lookup?s=[[link]]">Show all results for [[tickdquote]]</a></div><div class="tip"><em>Tip:</em> Use comma (,) to separate multiple quotes. <a href="http://help.yahoo.com/l/in/yahoo/finance/basics/quotelookup.html">Learn more...</a></div>',
+                        acInputId:'txtQuotes',
+                        acInputFormId:'quote',
+                        acContainerId:'quoteContainer',
+                        acModId:'mediaquotessearch',
+			acInputFocus:'0'
+                    });
+				</script>
+
+    
+<script type="text/javascript" src="https://s.yimg.com/bm/combo?fi/common/p/d/static/js/2.0.356981/2.0.0/mini/ylc_1.9.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi_common.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi_lazy_load.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi_nav_topnav.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi_nav_topnav_init.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi_nav_portfolio.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi_symbol_suggest.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi_loader.js&fi/common/p/d/static/js/2.0.356981/2.0.0/mini/yfi_init_symbol_suggest.js"></script>
+
+                                <script>
+                                    ll_js.push({
+                                    'file': "https://s.yimg.com/bm/lib/fi/common/p/d/static/js/latest/2.0.0/yfi_comscore.js"
+                                    });
+                                </script>
+                            
+
+<script type="text/javascript" src="https://s.yimg.com/zz/combo?kx/ucs/common/js/140/setup-min.js&kx/ucs/sts/js/442/skip-min.js&kx/yucs/uh2/uh/295/js/timestamp_library-min.js&kx/ucs/menu_utils/js/164/menu_utils_v2-min.js&kx/yucs/uh2/uh/295/js/aria_toolbar-min.js&kx/ucs/username/js/43/user_menu-min.js&kx/ucs/help/js/41/help_menu-min.js&kx/ucs/utility_link/js/20/utility_menu-min.js&kx/yucs/uh2/uh/295/js/logo_debug-min.js&kx/yucs/uh3/disclaimer/388/js/disclaimer_seed-min.js&kx/ucs/common/js/131/jsonp-super-cached-min.js&kx/ucs/avatar/js/30/avatar-min.js&kx/yucs/uh2/mail-link/85/js/mailcount_v2-min.js&kx/ucs/search/js/226/search-min.js&kx/ucs/search/js/210/search_text_dir-min.js&kx/yucs/uh2/uh/295/js/activate_library-min.js&kx/yucs/uhc/meta/66/js/meta-min.js"></script>
+
+<script type="text/javascript" src="https://s.yimg.com/ss/rapid-3.18.3.js"></script>
+
+		            <script>
+                        if( window.RAPID_ULT ) {
+                            var conf={
+                                compr_type:'deflate',
+                                tracked_mods:window.RAPID_ULT.tracked_mods,
+                                keys:window.RAPID_ULT.page_params,
+                                spaceid:1186550141,
+                                client_only:0,
+                                webworker_file:"\/__rapid-worker-1.1.js",
+                                nofollow_class:'rapid-nf',
+                                test_id:'',
+                                ywa: {
+                                    project_id:1000903542179,
+                                    document_group:"lookup",
+                                    document_name:"Symbol lookup",
+                                    host:'y.analytics.yahoo.com'
+                                }
+                            };
+                            YAHOO.i13n.YWA_CF_MAP = {"q":118,"qlen":29,"symbol":119,"symbolLen":30,"assetCls":120,"act":19,"ct":20,"hpset":11,"intl":12,"lang":13,"mcode":24,"mid":21,"n":33,"outcm":22,"pkg":23,"pstaid":10,"pstcat":8,"pt":9,"so":32,"src_pty":36,"tar":28,"test":14,"tn":34,"tntw":17,"version":18,"woe":35};
+                            YAHOO.i13n.YWA_ACTION_MAP = {"hswipe":36,"nav_clicked":21,"secvw":1};
+                            YAHOO.i13n.YWA_OUTCOME_MAP = {};
+                            window.rapidTracker = new YAHOO.i13n.Rapid(conf);
+                        }
+                    </script>
+                
+
+    <script type="text/javascript">
+        YAHOO.namespace('YAHOO.Finance');
+        YAHOO.Finance.submitMarketSelect = function() {
+        document.getElementById("symlookupform").submit();
+        }
+        YAHOO.util.Event.addListener(document.getElementById("m"), "change", YAHOO.Finance.submitMarketSelect);
+         if ("PLL" != "") document.getElementById("txtQuotes").value = "PLL".replace( "&amp;" , "&" ); 
+    </script>
+    
+    
+    
+    
+    
+    
+    
+
+</body>
+</html>
+
+<!-- finance:myservice-in:0:Success -->
+<!-- xsltm1.finance.sg3.yahoo.com uncompressed/chunked Mon Mar 14 12:07:42 UTC 2016 -->
